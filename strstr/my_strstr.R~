@@ -27,6 +27,7 @@ if (length(needle.place) == 0) {
     message("needle not found in haystack")
 
 } else {
+    message("1 by 1 checking")
     pin = 1
     while (pin <= sub.len - 1) {
     	cur.char     = str.char(sub.str, pin + 1)
