@@ -1,0 +1,12 @@
+Description
+Your program will read files containing English sentences, one sentence per line. The files will be specified on the command line. Once the files have been read, the program will generate a "query>" prompt. A query will consist of a sequence of words separated by white space and terminated by a carriage return--all words on a single line. The program will then generate a co-occurrence list consisting of filename, line number, and sentence from the input lines. Co-occurrence is when all the query words appear in the sentence. The program will continue to prompt for queries until the user enters "!exit". At this time, the program should stop accepting queries and report basic statistics regarding the number of sentences in the results. What you report is up to you. Your program should be able to process very large sentence files and many queries efficiently. It should also respond quickly to queries with empty result sets.
+File Format
+The input files contain lists of English language sentences. Here is a sample:
+The house is red. The baker said "The cakes are ready". Don't touch the switch!
+Line numbering starts at one.
+Implementation
+Implement the program described above in Java, Scala, C/C++, Python or Ruby. Do not spend more than two hours on this project.
+Evaluation
+Your program will be evaluated for readability, correctness, and efficient usage of data structures. Our tests will involve files containing up to one million sentences, as well as other edge cases.
+Submission
+Please provide all source code and support files necessary to compile (if applicable) and execute your program. Also indicate compiler/interpreter versions, as well. When you are finished email the package to msardari@ea.com.
